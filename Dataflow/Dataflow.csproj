@@ -14,8 +14,13 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageProjectUrl>https://github.com/lucacicada/Dataflow</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/lucacicada/Dataflow</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageTags>TPL</PackageTags>
 		<Description>A Task Parallel Library (TPL) helper library.</Description>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="all" />
+	</ItemGroup>
 
 </Project>
