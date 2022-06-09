@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0;net6.0;net5.0;netcoreapp3.1;netcoreapp3.0;netcoreapp2.2;</TargetFrameworks>
+		<Version>1.0.0</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>preview</LangVersion>
+		<IsPackable>true</IsPackable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/lucacicada/Dataflow</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/lucacicada/Dataflow</RepositoryUrl>
+		<PackageTags>TPL</PackageTags>
+		<Description>A Task Parallel Library (TPL) helper library.</Description>
+	</PropertyGroup>
+
+</Project>
